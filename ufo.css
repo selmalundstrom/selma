@@ -1,0 +1,71 @@
+html {
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+h1 {
+  
+  
+}
+/* adjust typography defaults */
+body {
+  font-family: Arial, Sans-Serif;
+  line-height: 1.25;
+  background-color: #abaea6;
+  margin: 1rem;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 800px;
+  
+}
+
+.key{
+ font-size: ; 
+  color: #1b3aff;
+    text-decoration:none;
+  
+    
+}
+.numbertext {
+  padding-left: 0px;
+}
+.miscfolder {
+ font-size:14px;
+  line-height:1.25;
+}
+
+
+@media screen and (min-width: 600px) {
+  h1{
+   font-size: 16px;
+  font-weight:normal;}}
+
+@media only screen and (max-device-width: 600px) {
+  h1{
+    font-size:25px;
+  font-weight:normal;
+  }}
+
+
+
+@media screen and (min-width: 600px) {
+  body {
+   max-width: 700px;
+    height: 100px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    display: block;
+   font-size:14px;
+    
+  }
+}
+
